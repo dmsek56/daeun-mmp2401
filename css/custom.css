@@ -1,0 +1,110 @@
+p {
+    color: darkgrey;
+    font-family: sans-serif;
+}
+a h1{
+    font-family: myFirstFont;
+    font-size: 6em;
+    color: black;
+    padding-top" 15px;
+    padding-bottom: 150px;
+    letter-spacing: 10px;
+}
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    background-color: none;
+    color: #f4511e;
+}
+.carousel-indicators li {
+    border-color: #f4511e;
+    background-image: none;
+    background-color: none;
+}
+
+.carousel-indicators li.active {
+    background-color: #f4511e;
+    background-image: none;
+    background-color: none;
+}
+
+.menu a {
+    color: darkgray;
+}
+
+.menu a:hover {
+    color: lightblue;
+}
+
+div {
+    padding-bottom: 50px;
+}
+
+.menu {
+    background: white;
+    width: 100px;
+   
+    /***100% of the height of the viewport***/
+    position: fixed;
+    z-index: 1000;
+    opacity: 0.8;
+}
+.h5 {
+    font-family: myFirstFont;
+    font-size: 6em;
+    color: black;
+}
+
+@font-face{
+font-family: myFirstFont;
+    src: url(huntress.otf);
+}
+/*********************************************************************************/
+/*************************************index.html**********************************/
+/*********************************************************************************/
+#index div{
+    padding-bottom:50px;
+}
+
+/*********************************************************************************/
+/*************************************work.html***********************************/
+/*********************************************************************************/
+
+/***peg all carousel images' width to the width of the viewport of the website***/
+#work #myCarousel{
+    padding: 15px
+}
+#work #myCarousel img{
+    width: 100vw;
+}
+#work .hide-tilte>h5{
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+    color: black;
+    font-size: 1.3em;
+    z-index: 10;
+    opacity:0;
+}
+
+#work #portfolio img:hover{
+    filter: blur(5px) opacity(0.3);
+    -webkit-filter: blur(5px) opacity(0.3);
+}
+#work #portfolio img{
+    transition: 1.0s;
+}
+#work .bg-orange{
+ background-color: #fadda8;  
+ padding: 30px;
+ position: relative;
+}
+#work .bg-black{
+ background-color: #888181;
+ padding:30px; 
+ position: relative;
+}
+#work .bg-brown{
+ background-color: #530909;
+ padding:30px;
+ position: relative;
+}
