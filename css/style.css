@@ -14,3 +14,52 @@ a h4 {
 font-family: myFirstFont;
     src: url(huntress.otf);
 }
+#box {
+    align-content:center;
+    margin: auto;
+    align-content: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+#box1 {
+    margin: auto;
+    align-content:center;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    width: 250px;
+}
+#box2 {
+    margin: auto;
+    align-content:center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+#box3 {
+    margin: auto;
+    align-content:center;
+    padding-top: 200px;
+    text-align: center;
+}
+#box4 {
+    margin: auto;
+    align-content:center;
+    padding-bottom: 200px;
+    text-align: center;
+}
+#contact {
+     margin: auto;
+    align-content:center;
+    padding-top: 200px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+#portfolio {
+     margin: auto;
+    align-content:center;
+    padding-top: 200px;
+    padding-bottom: 150px;
+    text-align: center;
+}
